@@ -9,7 +9,7 @@ module.exports = {
         description: 'A sample API', // Description (optional)
     },
     servers: [
-        { url: 'http://localhost:3000' }
+        { url: 'http://localhost:3001' }
     ],
     apis: [path.join(__dirname, './src/**/**/*.ts')]
 };

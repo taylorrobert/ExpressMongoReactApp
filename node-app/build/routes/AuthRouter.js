@@ -83,7 +83,7 @@ router.post('/signup', components_1.AuthComponent.signup);
 router.post('/login', components_1.AuthComponent.login);
 /**
  * POST method route
- * @example http://localhost:3000
+ * @example http://localhost:3001
  *
  * @swagger
  * /auth/logout/:

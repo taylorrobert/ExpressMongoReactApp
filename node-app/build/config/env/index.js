@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 const NODE_ENV = process.env.NODE_ENV || 'development';
 const development = {
-    port: process.env.PORT || 3000,
+    port: process.env.PORT || 3001,
     database: {
         MONGODB_URI: process.env.MONGODB_URI || 'mongodb://localhost:27017/',
         MONGODB_DB_MAIN: process.env.MONGODB_DB_MAIN || 'users_db'
@@ -12,7 +12,7 @@ const development = {
     secret: process.env.SECRET || '@QEGTUI'
 };
 const production = {
-    port: process.env.PORT || 3000,
+    port: process.env.PORT || 3001,
     database: {
         MONGODB_URI: process.env.MONGODB_URI || 'mongodb://production_uri/',
         MONGODB_DB_MAIN: process.env.MONGODB_DB_MAIN || 'users_db'
@@ -20,7 +20,7 @@ const production = {
     secret: process.env.SECRET || '@QEGTUI'
 };
 const test = {
-    port: process.env.PORT || 3000,
+    port: process.env.PORT || 3001,
     database: {
         MONGODB_URI: process.env.MONGODB_URI || 'mongodb://localhost:27017',
         MONGODB_DB_MAIN: 'test_users_db'
