@@ -1,0 +1,1 @@
+https://openbase.io/js/generator-node-express-typescript-api/documentation
